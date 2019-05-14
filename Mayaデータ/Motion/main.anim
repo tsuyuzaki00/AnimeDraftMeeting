@@ -1,0 +1,2421 @@
+animVersion 1.1;
+mayaVersion 2018;
+timeUnit film;
+linearUnit cm;
+angularUnit deg;
+startTime 63;
+endTime 72;
+anim boxhuman_cut02:main:ctrl_grp 0 1 0;
+anim boxhuman_cut02:main:root_trs 1 1 0;
+anim translate.translateX translateX boxhuman_cut02:main:root_ctrl 2 7 0;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 3086.71 auto auto 1 0 0;
+  }
+}
+anim translate.translateY translateY boxhuman_cut02:main:root_ctrl 2 7 1;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim translate.translateZ translateZ boxhuman_cut02:main:root_ctrl 2 7 2;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateX rotateX boxhuman_cut02:main:root_ctrl 2 7 3;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:root_ctrl 2 7 4;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 -90 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:root_ctrl 2 7 5;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:root_ctrl 2 7 6;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:bodyScale_ctrl 3 2 0;
+anim boxhuman_cut02:main:bodyScale_ctrlShape 4 0 0;
+anim boxhuman_cut02:main:COG_trs 4 1 0;
+anim translate.translateX translateX boxhuman_cut02:main:COG_ctrl 5 5 0;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 0 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim translate.translateY translateY boxhuman_cut02:main:COG_ctrl 5 5 1;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -19.90617 auto auto 1 0 0;
+    72 -19.90617 auto auto 1 0 0;
+  }
+}
+anim translate.translateZ translateZ boxhuman_cut02:main:COG_ctrl 5 5 2;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 2.5651182 auto auto 1 0 0;
+    72 2.5651182 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateX rotateX boxhuman_cut02:main:COG_ctrl 5 5 3;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 8.416818 auto auto 1 0 0;
+    72 8.2434577 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:COG_ctrl 5 5 4;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 12.491911 auto auto 1 0 0;
+    72 4.6472646 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:COG_ctrl 5 5 5;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1.833157 auto auto 1 0 0;
+    72 0.67251063 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:COG_ctrl 5 5 6;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:rootShape 6 0 0;
+anim boxhuman_cut02:main:rootShape1 6 0 0;
+anim boxhuman_cut02:main:spine01_trs 6 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:spine01_ctrl 7 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:spine01_ctrl 7 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:spine01_ctrl 7 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 -3.8198326 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:spine01_ctrl 7 2 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:spine01_ctrlShape 8 0 0;
+anim boxhuman_cut02:main:spine02_trs 8 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:spine02_ctrl 9 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 2.8527784 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:spine02_ctrl 9 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -8.4459932 auto auto 1 0 0;
+    72 -7.7618779 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:spine02_ctrl 9 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -1.1170858 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:spine02_ctrl 9 2 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:spine02_ctrlShape 10 0 0;
+anim boxhuman_cut02:main:spine03_trs 10 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:spine03_ctrl 11 4 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 4.3807595 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:spine03_ctrl 11 4 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:spine03_ctrlShape 12 0 0;
+anim boxhuman_cut02:main:shoulder_trs_R 12 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:shoulder_ctrl_R 13 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 0 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:shoulder_ctrl_R 13 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 0 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:shoulder_ctrl_R 13 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -9.5126336 auto auto 1 0 0;
+    72 -9.5126336 auto auto 1 0 0;
+  }
+}
+anim translate.translateX translateX boxhuman_cut02:main:shoulder_ctrl_R 13 2 3;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -3.1919497 auto auto 1 0 0;
+    72 -0.41224066 auto auto 1 0 0;
+  }
+}
+anim translate.translateY translateY boxhuman_cut02:main:shoulder_ctrl_R 13 2 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -1.7649518 auto auto 1 0 0;
+    72 -2.1670283 auto auto 1 0 0;
+  }
+}
+anim translate.translateZ translateZ boxhuman_cut02:main:shoulder_ctrl_R 13 2 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1.8618866 auto auto 1 0 0;
+    72 0.85641246 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:shoulder_ctrl_R 13 2 6;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:shoulder_ctrl_RShape 14 0 0;
+anim boxhuman_cut02:main:upArmFK_trs_R 14 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:upArmFK_ctrl_R 15 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1.126718 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:upArmFK_ctrl_R 15 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -41.152028 auto auto 1 0 0;
+    72 -39.072463 auto auto 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:upArmFK_ctrl_RShape 16 0 0;
+anim boxhuman_cut02:main:lowArmFK_trs_R 16 1 0;
+anim rotate.rotateY rotateY boxhuman_cut02:main:lowArmFK_ctrl_R 17 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 -70 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:lowArmFK_ctrl_R 17 2 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:lowArmFK_ctrl_RShape 18 0 0;
+anim boxhuman_cut02:main:handFK_trs_R 18 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:handFK_ctrl_R 19 6 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -1.1873866 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:handFK_ctrl_R 19 6 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -3.07656 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:handFK_ctrl_R 19 6 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -0.59183551 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:handFK_ctrl_R 19 6 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:handFK_ctrl_RShape 20 0 0;
+anim boxhuman_cut02:main:little01FK_trs_R 20 2 0;
+anim boxhuman_cut02:main:index01FK_ctrl_R4 21 0 0;
+anim rotate.rotateY rotateY boxhuman_cut02:main:little01FK_ctrl_R 21 4 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 11.606867 auto auto 1 0 0;
+    72 14.732826 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:little01FK_ctrl_R 21 4 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -32.607901 auto auto 1 0 0;
+    72 -31.935203 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:little01FK_ctrl_R 21 4 2;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:little01FK_ctrl_RShape1 22 0 0;
+anim boxhuman_cut02:main:little01FK_ctrl_RShape 22 0 0;
+anim boxhuman_cut02:main:little02FK_trs_R 22 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:little02FK_ctrl_R 23 3 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -32.560013 auto auto 1 0 0;
+    72 -31.935203 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:little02FK_ctrl_R 23 3 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:little02FK_ctrl_RShape 24 0 0;
+anim boxhuman_cut02:main:little02FK_ctrl_RShape1 24 0 0;
+anim boxhuman_cut02:main:little03FK_trs_R 24 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:little03FK_ctrl_R 25 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -32.560013 auto auto 1 0 0;
+    72 -31.935203 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:little03FK_ctrl_R 25 2 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:little03FK_ctrl_RShape 26 0 0;
+anim boxhuman_cut02:main:little03FK_ctrl_RShape1 26 0 0;
+anim boxhuman_cut02:main:little01FK_ctrl_RShape2 22 0 0;
+anim boxhuman_cut02:main:ring01FK_trs_R 20 2 0;
+anim boxhuman_cut02:main:index01FK_ctrl_R3 21 0 0;
+anim rotate.rotateY rotateY boxhuman_cut02:main:ring01FK_ctrl_R 21 4 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -3.1117944 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:ring01FK_ctrl_R 21 4 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -32.557715 auto auto 1 0 0;
+    72 -31.935203 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:ring01FK_ctrl_R 21 4 2;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:ring01FK_ctrl_RShape1 22 0 0;
+anim boxhuman_cut02:main:ring01FK_ctrl_RShape 22 0 0;
+anim boxhuman_cut02:main:ring02FK_trs_R 22 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:ring02FK_ctrl_R 23 3 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -32.560013 auto auto 1 0 0;
+    72 -31.935203 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:ring02FK_ctrl_R 23 3 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:ring02FK_ctrl_RShape 24 0 0;
+anim boxhuman_cut02:main:ring02FK_ctrl_RShape1 24 0 0;
+anim boxhuman_cut02:main:ring03FK_trs_R 24 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:ring03FK_ctrl_R 25 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -32.560013 auto auto 1 0 0;
+    72 -31.935203 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:ring03FK_ctrl_R 25 2 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:ring03FK_ctrl_RShape 26 0 0;
+anim boxhuman_cut02:main:ring03FK_ctrl_RShape1 26 0 0;
+anim boxhuman_cut02:main:ring01FK_ctrl_RShape2 22 0 0;
+anim boxhuman_cut02:main:middle01FK_trs_R 20 1 0;
+anim rotate.rotateY rotateY boxhuman_cut02:main:middle01FK_ctrl_R 21 4 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -3.1117944 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:middle01FK_ctrl_R 21 4 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -32.557715 auto auto 1 0 0;
+    72 -31.935203 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:middle01FK_ctrl_R 21 4 2;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:middle01FK_ctrl_RShape1 22 0 0;
+anim boxhuman_cut02:main:middle01FK_ctrl_RShape 22 0 0;
+anim boxhuman_cut02:main:middle02FK_trs_R 22 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:middle02FK_ctrl_R 23 3 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -32.560013 auto auto 1 0 0;
+    72 -31.935203 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:middle02FK_ctrl_R 23 3 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:middle02FK_ctrl_RShape 24 0 0;
+anim boxhuman_cut02:main:middle02FK_ctrl_RShape1 24 0 0;
+anim boxhuman_cut02:main:middle03FK_trs_R 24 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:middle03FK_ctrl_R 25 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -32.560013 auto auto 1 0 0;
+    72 -31.935203 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:middle03FK_ctrl_R 25 2 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:middle03FK_ctrl_RShape 26 0 0;
+anim boxhuman_cut02:main:middle03FK_ctrl_RShape1 26 0 0;
+anim boxhuman_cut02:main:middle01FK_ctrl_RShape2 22 0 0;
+anim boxhuman_cut02:main:index01FK_trs_R 20 1 0;
+anim rotate.rotateY rotateY boxhuman_cut02:main:index01FK_ctrl_R 21 4 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -8.0804506 auto auto 1 0 0;
+    72 -4.9733628 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:index01FK_ctrl_R 21 4 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -32.550645 auto auto 1 0 0;
+    72 -31.935203 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:index01FK_ctrl_R 21 4 2;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:index01FK_ctrl_RShape1 22 0 0;
+anim boxhuman_cut02:main:index01FK_ctrl_RShape 22 0 0;
+anim boxhuman_cut02:main:index02FK_trs_R 22 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:index02FK_ctrl_R 23 3 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -32.560013 auto auto 1 0 0;
+    72 -31.935203 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:index02FK_ctrl_R 23 3 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:index02FK_ctrl_RShape 24 0 0;
+anim boxhuman_cut02:main:index02FK_ctrl_RShape1 24 0 0;
+anim boxhuman_cut02:main:index03FK_trs_R 24 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:index03FK_ctrl_R 25 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -32.560013 auto auto 1 0 0;
+    72 -31.935203 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:index03FK_ctrl_R 25 2 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:index03FK_ctrl_RShape 26 0 0;
+anim boxhuman_cut02:main:index03FK_ctrl_RShape1 26 0 0;
+anim boxhuman_cut02:main:index01FK_ctrl_RShape2 22 0 0;
+anim boxhuman_cut02:main:thumb01FK_trs_R 20 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:thumb01FK_ctrl_R 21 5 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 3.9193296 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:thumb01FK_ctrl_R 21 5 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -40.108654 auto auto 1 0 0;
+    72 -36.886453 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:thumb01FK_ctrl_R 21 5 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -1.0710506 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:thumb01FK_ctrl_R 21 5 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:thumb01FK_ctrl_RShape1 22 0 0;
+anim boxhuman_cut02:main:thumb01FK_ctrl_RShape 22 0 0;
+anim boxhuman_cut02:main:thumb02FK_trs_R 22 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:thumb02FK_ctrl_R 23 3 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -0.62481042 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:thumb02FK_ctrl_R 23 3 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:thumb02FK_ctrl_RShape 24 0 0;
+anim boxhuman_cut02:main:thumb02FK_ctrl_RShape1 24 0 0;
+anim boxhuman_cut02:main:thumb03FK_trs_R 24 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:thumb03FK_ctrl_R 25 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -0.62481042 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:thumb03FK_ctrl_R 25 2 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:thumb03FK_ctrl_RShape 26 0 0;
+anim boxhuman_cut02:main:thumb03FK_ctrl_RShape1 26 0 0;
+anim boxhuman_cut02:main:thumb01FK_ctrl_RShape2 22 0 0;
+anim boxhuman_cut02:main:thumb01FK_ctrl_RShape3 22 0 0;
+anim boxhuman_cut02:main:shoulder_trs_L 12 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:shoulder_ctrl_L 13 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 4.666423 auto auto 1 0 0;
+    72 4.666423 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:shoulder_ctrl_L 13 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -0.065106561 auto auto 1 0 0;
+    72 -0.065106561 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:shoulder_ctrl_L 13 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -5.4995765 auto auto 1 0 0;
+    72 -5.4995765 auto auto 1 0 0;
+  }
+}
+anim translate.translateX translateX boxhuman_cut02:main:shoulder_ctrl_L 13 2 3;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 2.0017186 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim translate.translateY translateY boxhuman_cut02:main:shoulder_ctrl_L 13 2 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 0.44612414 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim translate.translateZ translateZ boxhuman_cut02:main:shoulder_ctrl_L 13 2 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 0.66289598 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:shoulder_ctrl_L 13 2 6;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:shoulder_ctrl_LShape 14 0 0;
+anim boxhuman_cut02:main:upArmFK_trs_L 14 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:upArmFK_ctrl_L 15 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 3.0394538 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:upArmFK_ctrl_L 15 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -51.689279 auto auto 1 0 0;
+    72 -48.120039 auto auto 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:upArmFK_ctrl_LShape 16 0 0;
+anim boxhuman_cut02:main:lowArmFK_trs_L 16 1 0;
+anim rotate.rotateY rotateY boxhuman_cut02:main:lowArmFK_ctrl_L 17 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 -62.430764 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:lowArmFK_ctrl_L 17 2 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:lowArmFK_ctrl_LShape 18 0 0;
+anim boxhuman_cut02:main:handFK_trs_L 18 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:handFK_ctrl_L 19 6 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -0.34557371 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:handFK_ctrl_L 19 6 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 5.4471061 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:handFK_ctrl_L 19 6 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -5.4701756 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:handFK_ctrl_L 19 6 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:handFK_ctrl_LShape 20 0 0;
+anim boxhuman_cut02:main:thumb01FK_trs_L 20 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:thumb01FK_ctrl_L 21 5 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -8.7058281 auto auto 1 0 0;
+    72 -11.3209 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:thumb01FK_ctrl_L 21 5 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -20.088987 auto auto 1 0 0;
+    72 -24.528245 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:thumb01FK_ctrl_L 21 5 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 3.9234708 auto auto 1 0 0;
+    72 10.74535 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:thumb01FK_ctrl_L 21 5 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:thumb01FK_ctrl_LShape1 22 0 0;
+anim boxhuman_cut02:main:thumb01FK_ctrl_LShape 22 0 0;
+anim boxhuman_cut02:main:thumb02FK_trs_L 22 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:thumb02FK_ctrl_L 23 3 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 14.586725 auto auto 1 0 0;
+    72 20 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:thumb02FK_ctrl_L 23 3 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:thumb02FK_ctrl_LShape 24 0 0;
+anim boxhuman_cut02:main:thumb02FK_ctrl_LShape1 24 0 0;
+anim boxhuman_cut02:main:thumb03FK_trs_L 24 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:thumb03FK_ctrl_L 25 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -55.413275 auto auto 1 0 0;
+    72 -50 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:thumb03FK_ctrl_L 25 2 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:thumb03FK_ctrl_LShape 26 0 0;
+anim boxhuman_cut02:main:thumb03FK_ctrl_LShape1 26 0 0;
+anim boxhuman_cut02:main:thumb01FK_ctrl_LShape2 22 0 0;
+anim boxhuman_cut02:main:thumb01FK_ctrl_LShape3 22 0 0;
+anim boxhuman_cut02:main:index01FK_trs_L 20 1 0;
+anim rotate.rotateY rotateY boxhuman_cut02:main:indexFK01_ctrl_L 21 4 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 5.497932 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:indexFK01_ctrl_L 21 4 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -22.70487 auto auto 1 0 0;
+    72 -17.280263 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:indexFK01_ctrl_L 21 4 2;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:indexFK01_ctrl_LShape1 22 0 0;
+anim boxhuman_cut02:main:indexFK01_ctrl_LShape 22 0 0;
+anim boxhuman_cut02:main:indexFK02_trs_L 22 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:indexFK02_ctrl_L 23 3 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -46.202633 auto auto 1 0 0;
+    72 -40.789358 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:indexFK02_ctrl_L 23 3 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:indexFK02_ctrl_LShape 24 0 0;
+anim boxhuman_cut02:main:indexFK02_ctrl_LShape1 24 0 0;
+anim boxhuman_cut02:main:indexFK03_trs_L 24 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:indexFK03_ctrl_L 25 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -41.202633 auto auto 1 0 0;
+    72 -35.789358 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:indexFK03_ctrl_L 25 2 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:indexFK03_ctrl_LShape 26 0 0;
+anim boxhuman_cut02:main:indexFK03_ctrl_LShape1 26 0 0;
+anim boxhuman_cut02:main:indexFK01_ctrl_LShape2 22 0 0;
+anim boxhuman_cut02:main:middle01FK_trs_L 20 1 0;
+anim rotate.rotateY rotateY boxhuman_cut02:main:middle01FK_ctrl_L 21 4 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 5.497932 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:middle01FK_ctrl_L 21 4 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -21.676277 auto auto 1 0 0;
+    72 -16.251671 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:middle01FK_ctrl_L 21 4 2;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:middle01FK_ctrl_LShape1 22 0 0;
+anim boxhuman_cut02:main:middle01FK_ctrl_LShape 22 0 0;
+anim boxhuman_cut02:main:middle02FK_trs_L 22 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:middle02FK_ctrl_L 23 3 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -33.656658 auto auto 1 0 0;
+    72 -28.243382 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:middle02FK_ctrl_L 23 3 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:middle02FK_ctrl_LShape 24 0 0;
+anim boxhuman_cut02:main:middle02FK_ctrl_LShape1 24 0 0;
+anim boxhuman_cut02:main:middle03FK_trs_L 24 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:middle03FK_ctrl_L 25 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -41.202633 auto auto 1 0 0;
+    72 -35.789358 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:middle03FK_ctrl_L 25 2 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:middle03FK_ctrl_LShape 26 0 0;
+anim boxhuman_cut02:main:middle03FK_ctrl_LShape1 26 0 0;
+anim boxhuman_cut02:main:middle01FK_ctrl_LShape2 22 0 0;
+anim boxhuman_cut02:main:ring01FK_trs_L 20 1 0;
+anim rotate.rotateY rotateY boxhuman_cut02:main:ring01FK_ctrl_L 21 4 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 5.497932 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:ring01FK_ctrl_L 21 4 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -29.445601 auto auto 1 0 0;
+    72 -24.020995 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:ring01FK_ctrl_L 21 4 2;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:ring01FK_ctrl_LShape1 22 0 0;
+anim boxhuman_cut02:main:ring01FK_ctrl_LShape 22 0 0;
+anim boxhuman_cut02:main:ring02FK_trs_L 22 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:ring02FK_ctrl_L 23 3 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -33.040733 auto auto 1 0 0;
+    72 -27.627458 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:ring02FK_ctrl_L 23 3 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:ring02FK_ctrl_LShape 24 0 0;
+anim boxhuman_cut02:main:ring02FK_ctrl_LShape1 24 0 0;
+anim boxhuman_cut02:main:ring03FK_trs_L 24 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:ring03FK_ctrl_L 25 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -28.698829 auto auto 1 0 0;
+    72 -23.285554 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:ring03FK_ctrl_L 25 2 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:ring03FK_ctrl_LShape 26 0 0;
+anim boxhuman_cut02:main:ring03FK_ctrl_LShape1 26 0 0;
+anim boxhuman_cut02:main:ring01FK_ctrl_LShape2 22 0 0;
+anim boxhuman_cut02:main:little01FK_trs_L 20 1 0;
+anim rotate.rotateY rotateY boxhuman_cut02:main:little01FK_ctrl_L 21 4 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 5.497932 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:little01FK_ctrl_L 21 4 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -50.281245 auto auto 1 0 0;
+    72 -44.856639 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:little01FK_ctrl_L 21 4 2;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:little01FK_ctrl_LShape1 22 0 0;
+anim boxhuman_cut02:main:little01FK_ctrl_LShape 22 0 0;
+anim boxhuman_cut02:main:little02FK_trs_L 22 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:little02FK_ctrl_L 23 3 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -26.099391 auto auto 1 0 0;
+    72 -20.686116 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:little02FK_ctrl_L 23 3 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:little02FK_ctrl_LShape 24 0 0;
+anim boxhuman_cut02:main:little02FK_ctrl_LShape1 24 0 0;
+anim boxhuman_cut02:main:little03FK_trs_L 24 1 0;
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:little03FK_ctrl_L 25 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -41.202633 auto auto 1 0 0;
+    72 -35.789358 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:little03FK_ctrl_L 25 2 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:little03FK_ctrl_LShape 26 0 0;
+anim boxhuman_cut02:main:little03FK_ctrl_LShape1 26 0 0;
+anim boxhuman_cut02:main:little01FK_ctrl_LShape2 22 0 0;
+anim boxhuman_cut02:main:neck_trs 12 1 0;
+anim rotate.rotateY rotateY boxhuman_cut02:main:neck_ctrl 13 3 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 1.7554641 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:neck_ctrl 13 3 1;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:neck_ctrlShape 14 0 0;
+anim boxhuman_cut02:main:neck_ctrlShape1 14 0 0;
+anim boxhuman_cut02:main:head_trs 14 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:head_ctrl 15 1 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -6.6997846 auto auto 1 0 0;
+    72 -6.5996188 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:head_ctrl 15 1 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 3.6124856 auto auto 1 0 0;
+    72 12.481069 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:head_ctrl 15 1 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -7.0338192 auto auto 1 0 0;
+    72 -5.9643786 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:head_ctrl 15 1 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 1 spline step 1 0 0;
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:head_ctrlShape 16 0 0;
+anim boxhuman_cut02:main:upLegFK_trs_R 6 1 0;
+anim boxhuman_cut02:main:upLegFK_ctrl_R 7 2 0;
+anim boxhuman_cut02:main:upLegFK_ctrl_RShape 8 0 0;
+anim boxhuman_cut02:main:lowLegFK_trs_R 8 1 0;
+anim boxhuman_cut02:main:lowLegFK_ctrl_R 9 2 0;
+anim boxhuman_cut02:main:lowLegFK_ctrl_RShape 10 0 0;
+anim boxhuman_cut02:main:ankleFK_trs_R 10 1 0;
+anim boxhuman_cut02:main:ankleFK_ctrl_R 11 2 0;
+anim boxhuman_cut02:main:ankleFK_ctrl_RShape 12 0 0;
+anim boxhuman_cut02:main:footFK_trs_R 12 1 0;
+anim boxhuman_cut02:main:footFK_ctrl_R 13 1 0;
+anim boxhuman_cut02:main:footFK_ctrl_RShape 14 0 0;
+anim boxhuman_cut02:main:upLegFK_trs_L 6 1 0;
+anim boxhuman_cut02:main:upLegFK_ctrl_L 7 2 0;
+anim boxhuman_cut02:main:upLegFK_ctrl_LShape 8 0 0;
+anim boxhuman_cut02:main:lowLegFK_trs_L 8 1 0;
+anim boxhuman_cut02:main:lowLegFK_ctrl_L 9 2 0;
+anim boxhuman_cut02:main:lowLegFK_ctrl_LShape 10 0 0;
+anim boxhuman_cut02:main:ankleFK_trs_L 10 1 0;
+anim boxhuman_cut02:main:ankleFK_ctrl_L 11 2 0;
+anim boxhuman_cut02:main:ankleFK_ctrl_LShape 12 0 0;
+anim boxhuman_cut02:main:footFK_trs_L 12 1 0;
+anim boxhuman_cut02:main:footFK_ctrl_L 13 1 0;
+anim boxhuman_cut02:main:footFK_ctrl_LShape 14 0 0;
+anim boxhuman_cut02:main:rootShape 3 0 0;
+anim boxhuman_cut02:main:rootShape1 3 0 0;
+anim boxhuman_cut02:main:footIK_trs_L 3 2 0;
+anim translate.translateX translateX boxhuman_cut02:main:footIK_ctrl_L 4 4 0;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 0 fixed fixed 1 0 0 0 1 0 1;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim translate.translateY translateY boxhuman_cut02:main:footIK_ctrl_L 4 4 1;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 30.362877 fixed fixed 1 0 0 0 1 0 1;
+    72 30.362877 auto auto 1 0 0;
+  }
+}
+anim translate.translateZ translateZ boxhuman_cut02:main:footIK_ctrl_L 4 4 2;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -17.326111 fixed fixed 1 0 0 0 1 0 1;
+    72 -17.326111 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateX rotateX boxhuman_cut02:main:footIK_ctrl_L 4 4 3;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -20 fixed fixed 1 0 0 0 1 0 1;
+    72 -20 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:footIK_ctrl_L 4 4 4;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 0 fixed fixed 1 0 0 0 1 0 1;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:footIK_ctrl_L 4 4 5;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 0 fixed fixed 1 0 0 0 1 0 1;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:rootShape 5 0 0;
+anim boxhuman_cut02:main:rootShape1 5 0 0;
+anim boxhuman_cut02:main:footIK_trs_LT 5 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:footIK_ctrl_LT 6 3 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:footIK_ctrl_LT 6 3 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:footIK_ctrl_LT 6 3 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:footIK_ctrl_LT 6 3 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:footIK_ctrl_LTShape 7 0 0;
+anim boxhuman_cut02:main:toeTap_trs_L 7 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:toeTap_ctrl_L 8 1 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:toeTap_ctrl_L 8 1 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:toeTap_ctrl_L 8 1 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 -2.0433616e-06 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:toeTap_ctrl_L 8 1 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:toeTap_ctrl_LShape 9 0 0;
+anim boxhuman_cut02:main:peelHell_trs_L 7 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:peelHell_trs_L 8 1 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:peelHell_trs_L 8 1 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 7.9654168 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:peelHell_trs_L 8 1 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:peelHell_trs_L 8 1 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:peelHell_trs_LShape 9 0 0;
+anim boxhuman_cut02:main:lowLegIK_trs_L 5 1 0;
+anim translate.translateX translateX boxhuman_cut02:main:lowLegIK_ctrl_L 6 1 0;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 2.6552961e-06 auto auto 1 0 0;
+  }
+}
+anim translate.translateY translateY boxhuman_cut02:main:lowLegIK_ctrl_L 6 1 1;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 -13.410648 auto auto 1 0 0;
+  }
+}
+anim translate.translateZ translateZ boxhuman_cut02:main:lowLegIK_ctrl_L 6 1 2;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 7.1467341 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:lowLegIK_ctrl_L 6 1 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:lowLegIK_ctrl_LShape 7 0 0;
+anim boxhuman_cut02:main:footIK_grp_L 4 2 0;
+anim boxhuman_cut02:main:footIK_grp_LT 5 3 0;
+anim boxhuman_cut02:main:peelHell_grp_L 6 3 0;
+anim boxhuman_cut02:main:ankle_ikHandle_L 7 1 0;
+anim boxhuman_cut02:main:ankle_poleVectorConstraint_L 8 0 0;
+anim boxhuman_cut02:main:ankle_ikHandle_LT 7 0 0;
+anim boxhuman_cut02:main:peelHell_orientConstraint_L 7 0 0;
+anim boxhuman_cut02:main:toeTap_grp_L 6 3 0;
+anim boxhuman_cut02:main:foot_ikHandle_L 7 0 0;
+anim boxhuman_cut02:main:foot_ikHandle_LT 7 0 0;
+anim boxhuman_cut02:main:toeTap_orientConstraint_L 7 0 0;
+anim boxhuman_cut02:main:footIK_orientConstraint_LT 6 0 0;
+anim boxhuman_cut02:main:footIK_parentConstraint_L 5 0 0;
+anim boxhuman_cut02:main:footIK_trs_R 3 2 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:footIK_ctrl_R 4 4 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -23.767994 auto auto 1 0 0;
+    72 -23.767994 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:footIK_ctrl_R 4 4 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 0 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:footIK_ctrl_R 4 4 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 0 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim translate.translateX translateX boxhuman_cut02:main:footIK_ctrl_R 4 4 3;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 0 auto auto 1 0 0;
+    72 0 auto auto 1 0 0;
+  }
+}
+anim translate.translateY translateY boxhuman_cut02:main:footIK_ctrl_R 4 4 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -21.281297 auto auto 1 0 0;
+    72 -21.281297 auto auto 1 0 0;
+  }
+}
+anim translate.translateZ translateZ boxhuman_cut02:main:footIK_ctrl_R 4 4 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    63 -8.0431921 auto auto 1 0 0;
+    72 -8.0431921 auto auto 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:foot_ctrlShape 5 0 0;
+anim boxhuman_cut02:main:footIK_ctrlShape1 5 0 0;
+anim boxhuman_cut02:main:footIK_trs_RT 5 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:footIK_ctrl_RT 6 3 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:footIK_ctrl_RT 6 3 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:footIK_ctrl_RT 6 3 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:footIK_ctrl_RT 6 3 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:footIK_ctrl_RTShape 7 0 0;
+anim boxhuman_cut02:main:peelHell_trs_R 7 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:peelHell_trs_R 8 1 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:peelHell_trs_R 8 1 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:peelHell_trs_R 8 1 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:peelHell_trs_R 8 1 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:peelHell_trs_RShape 9 0 0;
+anim boxhuman_cut02:main:toeTap_trs_R 7 1 0;
+anim rotate.rotateX rotateX boxhuman_cut02:main:toeTap_ctrl_R 8 1 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY boxhuman_cut02:main:toeTap_ctrl_R 8 1 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ boxhuman_cut02:main:toeTap_ctrl_R 8 1 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:toeTap_ctrl_R 8 1 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:toeTap_ctrl_RShape 9 0 0;
+anim boxhuman_cut02:main:lowLegIK_trs_R 5 1 0;
+anim translate.translateX translateX boxhuman_cut02:main:lowLegIK_ctrl_R 6 1 0;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim translate.translateY translateY boxhuman_cut02:main:lowLegIK_ctrl_R 6 1 1;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim translate.translateZ translateZ boxhuman_cut02:main:lowLegIK_ctrl_R 6 1 2;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 0 auto auto 1 0 0;
+  }
+}
+anim visibility visibility boxhuman_cut02:main:lowLegIK_ctrl_R 6 1 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    72 1 spline step 1 0 0;
+  }
+}
+anim boxhuman_cut02:main:lowLegIK_ctrl_RShape 7 0 0;
+anim boxhuman_cut02:main:footIK_grp_R 4 3 0;
+anim boxhuman_cut02:main:footIK_grp_RT 5 3 0;
+anim boxhuman_cut02:main:toeTap_grp_R 6 3 0;
+anim boxhuman_cut02:main:foot_ikHandle_R 7 0 0;
+anim boxhuman_cut02:main:foot_ikHandle_RT 7 0 0;
+anim boxhuman_cut02:main:toeTap_grp_R_orientConstraint1 7 0 0;
+anim boxhuman_cut02:main:peelHell_grp_R 6 3 0;
+anim boxhuman_cut02:main:ankle_ikHandle_R 7 1 0;
+anim boxhuman_cut02:main:ankle_poleVectorConstraint_R 8 0 0;
+anim boxhuman_cut02:main:ankle_ikHandle_RT 7 0 0;
+anim boxhuman_cut02:main:peelHell_grp_R_orientConstraint1 7 0 0;
+anim boxhuman_cut02:main:footIK_grp_RT_orientConstraint1 6 0 0;
+anim boxhuman_cut02:main:footIK_orientConstraint_R 5 0 0;
+anim boxhuman_cut02:main:footIK_pointConstraint_R 5 0 0;
+anim boxhuman_cut02:main:handIK_trs_L 3 2 0;
+anim boxhuman_cut02:main:handIK_ctrl_L 4 4 0;
+anim boxhuman_cut02:main:handIK_ctrl_LShape 5 0 0;
+anim boxhuman_cut02:main:handIK_trs_LT 5 1 0;
+anim boxhuman_cut02:main:handIK_ctrl_LT 6 12 0;
+anim boxhuman_cut02:main:handIK_ctrl_LTShape 7 0 0;
+anim boxhuman_cut02:main:littleIK_trs_L 7 1 0;
+anim boxhuman_cut02:main:littleIK_ctrl_L 8 1 0;
+anim boxhuman_cut02:main:littleIK_ctrl_LShape 9 0 0;
+anim boxhuman_cut02:main:littleIK_trs_LT 7 1 0;
+anim boxhuman_cut02:main:littleIK_ctrl_LT 8 1 0;
+anim boxhuman_cut02:main:littleIK_ctrl_LTShape 9 0 0;
+anim boxhuman_cut02:main:ringIK_trs_L 7 1 0;
+anim boxhuman_cut02:main:ringIK_ctrl_L 8 1 0;
+anim boxhuman_cut02:main:ringIK_ctrl_LShape 9 0 0;
+anim boxhuman_cut02:main:ringIK_trs_LT 7 1 0;
+anim boxhuman_cut02:main:ringIK_ctrl_LT 8 1 0;
+anim boxhuman_cut02:main:ringIK_ctrl_LTShape 9 0 0;
+anim boxhuman_cut02:main:middleIK_trs_L 7 1 0;
+anim boxhuman_cut02:main:middleIK_ctrl_L 8 1 0;
+anim boxhuman_cut02:main:middleIK_ctrl_LShape 9 0 0;
+anim boxhuman_cut02:main:middleIK_trs_LT 7 1 0;
+anim boxhuman_cut02:main:middleIK_ctrl_LT 8 1 0;
+anim boxhuman_cut02:main:middleIK_ctrl_LTShape 9 0 0;
+anim boxhuman_cut02:main:indexIK_trs_L 7 1 0;
+anim boxhuman_cut02:main:indexIK_ctrl_L 8 1 0;
+anim boxhuman_cut02:main:indexIK_ctrl_LShape 9 0 0;
+anim boxhuman_cut02:main:indexIK_trs_LT 7 1 0;
+anim boxhuman_cut02:main:indexIK_ctrl_LT 8 1 0;
+anim boxhuman_cut02:main:indexIK_ctrl_LTShape 9 0 0;
+anim boxhuman_cut02:main:thumbIK_trs_L 7 1 0;
+anim boxhuman_cut02:main:thumbIK_ctrl_L 8 1 0;
+anim boxhuman_cut02:main:thumbIK_ctrl_LShape 9 0 0;
+anim boxhuman_cut02:main:thumbIK_trs_LT 7 1 0;
+anim boxhuman_cut02:main:thumbIK_ctrl_LT 8 1 0;
+anim boxhuman_cut02:main:thumbIK_ctrl_LTShape 9 0 0;
+anim boxhuman_cut02:main:handIK_ctrl_LTShape1 7 0 0;
+anim boxhuman_cut02:main:lowArmIK_trs_L 5 1 0;
+anim boxhuman_cut02:main:lowArmIK_ctrl_L 6 1 0;
+anim boxhuman_cut02:main:lowArmIK_ctrl_LShape 7 0 0;
+anim boxhuman_cut02:main:handIK_ctrl_LShape1 5 0 0;
+anim boxhuman_cut02:main:handIK_grp_L 4 3 0;
+anim boxhuman_cut02:main:handIK_grp_LT 5 9 0;
+anim boxhuman_cut02:main:thumbIK_grp_L 6 1 0;
+anim boxhuman_cut02:main:thumb_ikHandle_L 7 2 0;
+anim boxhuman_cut02:main:thumb_poleVectorConstraint_L 8 0 0;
+anim boxhuman_cut02:main:thumb_pointConstraint_L 8 0 0;
+anim boxhuman_cut02:main:indexIK_grp_L 6 1 0;
+anim boxhuman_cut02:main:index_ikHandle_L 7 2 0;
+anim boxhuman_cut02:main:index_poleVectorConstraint_L 8 0 0;
+anim boxhuman_cut02:main:index_pointConstraint_L 8 0 0;
+anim boxhuman_cut02:main:middleIK_grp_L 6 1 0;
+anim boxhuman_cut02:main:middle_ikHandle_L 7 2 0;
+anim boxhuman_cut02:main:middle_poleVectorConstraint_L 8 0 0;
+anim boxhuman_cut02:main:middle_pointConstraint_L 8 0 0;
+anim boxhuman_cut02:main:ringIK_grp_L 6 1 0;
+anim boxhuman_cut02:main:ring_ikHandle_L 7 2 0;
+anim boxhuman_cut02:main:ring_poleVectorConstraint_L 8 0 0;
+anim boxhuman_cut02:main:ring_pointConstraint_L 8 0 0;
+anim boxhuman_cut02:main:littleIK_grp_L 6 1 0;
+anim boxhuman_cut02:main:little_ikHandle_L 7 2 0;
+anim boxhuman_cut02:main:little_poleVectorConstraint_L 8 0 0;
+anim boxhuman_cut02:main:little_pointConstraint_L 8 0 0;
+anim boxhuman_cut02:main:hand_ikHandle_L 6 1 0;
+anim boxhuman_cut02:main:hand_poleVectorConstraint_L 7 0 0;
+anim boxhuman_cut02:main:hand_ikHandle_LT 6 0 0;
+anim boxhuman_cut02:main:handIK_orientConstraint_LT 6 0 0;
+anim boxhuman_cut02:main:handIK_pointConstraint_LT 6 0 0;
+anim boxhuman_cut02:main:handIK_orientConstraint_L 5 0 0;
+anim boxhuman_cut02:main:handIK_pointConstraint_L 5 0 0;
+anim boxhuman_cut02:main:handIK_trs_R 3 2 0;
+anim boxhuman_cut02:main:handIK_ctrl_R 4 4 0;
+anim boxhuman_cut02:main:handIK_ctrl_RShape 5 0 0;
+anim boxhuman_cut02:main:handIK_ctrl_RShape1 5 0 0;
+anim boxhuman_cut02:main:handIK_trs_RT 5 1 0;
+anim boxhuman_cut02:main:handIK_ctrl_RT 6 12 0;
+anim boxhuman_cut02:main:handIK_ctrl_RTShape 7 0 0;
+anim boxhuman_cut02:main:handIK_ctrl_RTShape1 7 0 0;
+anim boxhuman_cut02:main:thumbIK_trs_RT 7 1 0;
+anim boxhuman_cut02:main:thumbIK_ctrl_RT 8 1 0;
+anim boxhuman_cut02:main:thumbIK_ctrl_RTShape 9 0 0;
+anim boxhuman_cut02:main:thumbIK_trs_R 7 1 0;
+anim boxhuman_cut02:main:thumbIK_ctrl_R 8 1 0;
+anim boxhuman_cut02:main:thumbIK_ctrl_RShape 9 0 0;
+anim boxhuman_cut02:main:indexIK_trs_RT 7 1 0;
+anim boxhuman_cut02:main:indexIK_ctrl_RT 8 1 0;
+anim boxhuman_cut02:main:indexIK_ctrl_RTShape 9 0 0;
+anim boxhuman_cut02:main:indexIK_trs_R 7 1 0;
+anim boxhuman_cut02:main:indexIK_ctrl_R 8 1 0;
+anim boxhuman_cut02:main:indexIK_ctrl_RShape 9 0 0;
+anim boxhuman_cut02:main:middleIK_trs_RT 7 1 0;
+anim boxhuman_cut02:main:middleIK_ctrl_RT 8 1 0;
+anim boxhuman_cut02:main:middleIK_ctrl_RTShape 9 0 0;
+anim boxhuman_cut02:main:middleIK_trs_R 7 1 0;
+anim boxhuman_cut02:main:middleIK_ctrl_R 8 1 0;
+anim boxhuman_cut02:main:middleIK_ctrl_RShape 9 0 0;
+anim boxhuman_cut02:main:ringIK_trs_RT 7 1 0;
+anim boxhuman_cut02:main:ringIK_ctrl_RT 8 1 0;
+anim boxhuman_cut02:main:ringIK_ctrl_RTShape 9 0 0;
+anim boxhuman_cut02:main:ringIK_trs_R 7 1 0;
+anim boxhuman_cut02:main:ringIK_ctrl_R 8 1 0;
+anim boxhuman_cut02:main:ringIK_ctrl_RShape 9 0 0;
+anim boxhuman_cut02:main:littleIK_trs_RT 7 1 0;
+anim boxhuman_cut02:main:littleIK_ctrl_RT 8 1 0;
+anim boxhuman_cut02:main:littleIK_ctrl_RTShape 9 0 0;
+anim boxhuman_cut02:main:littleIK_trs_R 7 1 0;
+anim boxhuman_cut02:main:littleIK_ctrl_R 8 1 0;
+anim boxhuman_cut02:main:littleIK_ctrl_RShape 9 0 0;
+anim boxhuman_cut02:main:lowArmIK_trs_R 5 1 0;
+anim boxhuman_cut02:main:lowArmIK_ctrl_R 6 1 0;
+anim boxhuman_cut02:main:lowArmIK_ctrl_RShape 7 0 0;
+anim boxhuman_cut02:main:handIK_grp_R 4 3 0;
+anim boxhuman_cut02:main:handIK_grp_RT 5 9 0;
+anim boxhuman_cut02:main:littleIK_grp_R 6 1 0;
+anim boxhuman_cut02:main:little_ikHandle_R 7 2 0;
+anim boxhuman_cut02:main:little_poleVectorConstraint_R 8 0 0;
+anim boxhuman_cut02:main:little_pointConstraint_R 8 0 0;
+anim boxhuman_cut02:main:ringIK_grp_R 6 1 0;
+anim boxhuman_cut02:main:ring_ikHandle_R 7 2 0;
+anim boxhuman_cut02:main:ring_poleVectorConstraint_R 8 0 0;
+anim boxhuman_cut02:main:ring_pointConstraint_R 8 0 0;
+anim boxhuman_cut02:main:middleIK_grp_R 6 1 0;
+anim boxhuman_cut02:main:middle_ikHandle_R 7 2 0;
+anim boxhuman_cut02:main:middle_poleVectorConstraint_R 8 0 0;
+anim boxhuman_cut02:main:middle_pointConstraint_R 8 0 0;
+anim boxhuman_cut02:main:indexIK_grp_R 6 1 0;
+anim boxhuman_cut02:main:index_ikHandle_R 7 2 0;
+anim boxhuman_cut02:main:index_poleVectorConstraint_R 8 0 0;
+anim boxhuman_cut02:main:index_pointConstraint_R 8 0 0;
+anim boxhuman_cut02:main:thumbIK_grp_R 6 1 0;
+anim boxhuman_cut02:main:thumb_ikHandle_R 7 2 0;
+anim boxhuman_cut02:main:thumb_poleVectorConstraint_R 8 0 0;
+anim boxhuman_cut02:main:thumb_pointConstraint_R 8 0 0;
+anim boxhuman_cut02:main:hand_ikHandle_RT 6 0 0;
+anim boxhuman_cut02:main:hand_ikHandle_R 6 1 0;
+anim boxhuman_cut02:main:hand_poleVectorConstraint_R 7 0 0;
+anim boxhuman_cut02:main:handIK_pointConstraint_RT 6 0 0;
+anim boxhuman_cut02:main:handIK_orientConstraint_RT 6 0 0;
+anim boxhuman_cut02:main:handIK_pointConstraint_R 5 0 0;
+anim boxhuman_cut02:main:handIK_orientConstraintR 5 0 0;

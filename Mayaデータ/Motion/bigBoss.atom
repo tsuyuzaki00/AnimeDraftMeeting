@@ -1,0 +1,705 @@
+atomVersion 1.0;
+mayaVersion 2018;
+mayaSceneFile P:/3DCG/Maya/Maya_Projects/アニメータードラフト会議/Mayaデータ/Motion/boxhuman_cut06.mb;
+timeUnit film;
+linearUnit cm;
+angularUnit deg;
+startTime 0;
+endTime 60;
+offlineFile ;
+dagNode {
+  boss:root_ctrl 3 4;
+  anim translate.translateX translateX 0;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      0 -1044.0424 auto auto 1 0 0;
+      9 -747.41052 auto auto 1 0 0;
+      11 -638.42137 auto auto 1 0 0;
+      12 -638.42137 auto auto 1 0 0;
+    }
+  }
+  anim translate.translateY translateY 1;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      0 688.07917 auto auto 1 0 0;
+      9 688.07917 auto auto 1 0 0;
+      11 688.07917 auto auto 1 0 0;
+      12 688.07917 auto auto 1 0 0;
+    }
+  }
+  anim translate.translateZ translateZ 2;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      0 0 auto auto 1 0 0;
+      9 0 auto auto 1 0 0;
+      11 0 auto auto 1 0 0;
+      12 0 auto auto 1 0 0;
+    }
+  }
+  anim rotate.rotateX rotateX 3;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      0 97.607281 auto auto 1 0 0;
+      9 97.607281 auto auto 1 0 0;
+      11 97.607281 auto auto 1 0 0;
+      12 97.607281 auto auto 1 0 0;
+    }
+  }
+  anim rotate.rotateY rotateY 4;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      0 90 auto auto 1 0 0;
+      9 90 auto auto 1 0 0;
+      11 90 auto auto 1 0 0;
+      12 90 auto auto 1 0 0;
+    }
+  }
+  anim rotate.rotateZ rotateZ 5;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      0 0 auto auto 1 0 0;
+      9 0 auto auto 1 0 0;
+      11 0 auto auto 1 0 0;
+      12 0 auto auto 1 0 0;
+    }
+  }
+  anim blendParent1 blendParent1 6;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      0 0 auto auto 1 0 0;
+      9 0 auto auto 1 0 0;
+      11 0 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+    }
+  }
+  anim visibility visibility 7;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      0 1 spline step 1 0 0;
+      9 1 spline step 1 0 0;
+      11 1 spline step 1 0 0;
+      12 1 spline step 1 0 0;
+    }
+  }
+}
+offlineFileData //Maya ASCII 2018ff09 scene
+//Name: bigBoss.editMA
+//Last modified: Mon, May 13, 2019 01:16:00 AM
+//Codeset: 932
+requires maya "2018ff09";
+requires -nodeType "HIKSolverNode" -nodeType "HIKCharacterNode" -nodeType "HIKSkeletonGeneratorNode"
+		 -nodeType "HIKFK2State" -nodeType "HIKState2SK" -nodeType "HIKProperty2State" -nodeType "HIKCharacterStateClient"
+		 -dataType "HIKCharacter" -dataType "HIKCharacterState" -dataType "HIKEffectorState"
+		 -dataType "HIKPropertySetState" "mayaHIK" "1.0_HIK_2016.5";
+requires "stereoCamera" "10.0";
+requires -nodeType "aiOptions" "mtoa" "3.1.2.1";
+requires -nodeType "ilrOptionsNode" -nodeType "ilrUIOptionsNode" -nodeType "ilrBakeLayerManager"
+		 -nodeType "ilrBakeLayer" "Turtle" "2018.0.0";
+currentUnit -l centimeter -a degree -t film;
+fileInfo "fileCreationSource" "ExportEdits";
+createNode parentConstraint -n "root_ctrl_parentConstraint1";
+	rename -uid "ED979058-498A-D990-1F1E-A9B71804EC0B";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "footIK_ctrl_RW0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -721.5702457661904 -45.978243744779888 -15.228862949834836 ;
+	setAttr ".tg[0].tor" -type "double3" 75.071345700449669 -89.472227714157128 -157.91791679704355 ;
+	setAttr ".lr" -type "double3" 97.607280990943465 89.999999999999929 0 ;
+	setAttr ".rst" -type "double3" -638.42136599301193 688.07916616480748 1.0302869668521453e-13 ;
+	setAttr ".rsrr" -type "double3" 97.607280990943465 89.999999999999929 0 ;
+	setAttr -k on ".w0";
+createNode pairBlend -n "pairBlend1";
+	rename -uid "4D6AEAF9-46DE-998A-5133-70A077E5CA9F";
+connectAttr "<main>:little_ikHandle_R.pim" "boss:little_poleVectorConstraint_R.cpim"
+		;
+connectAttr "<main>:little01_jntIK_R.pm" "boss:little_poleVectorConstraint_R.ps"
+		;
+connectAttr "<main>:little01_jntIK_R.t" "boss:little_poleVectorConstraint_R.crp"
+		;
+connectAttr "<main>:littleIK_ctrl_R.t" "boss:little_poleVectorConstraint_R.tg[0].tt"
+		;
+connectAttr "<main>:littleIK_ctrl_R.rp" "boss:little_poleVectorConstraint_R.tg[0].trp"
+		;
+connectAttr "<main>:littleIK_ctrl_R.rpt" "boss:little_poleVectorConstraint_R.tg[0].trt"
+		;
+connectAttr "<main>:littleIK_ctrl_R.pm" "boss:little_poleVectorConstraint_R.tg[0].tpm"
+		;
+connectAttr "boss:little_poleVectorConstraint_R.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[2910].dn"
+		;
+connectAttr "<main>:little_ikHandle_R.pim" "boss:little_pointConstraint_R.cpim";
+connectAttr "<main>:little_ikHandle_R.rp" "boss:little_pointConstraint_R.crp";
+connectAttr "<main>:little_ikHandle_R.rpt" "boss:little_pointConstraint_R.crt";
+connectAttr "<main>:littleIK_ctrl_RT.t" "boss:little_pointConstraint_R.tg[0].tt"
+		;
+connectAttr "<main>:littleIK_ctrl_RT.rp" "boss:little_pointConstraint_R.tg[0].trp"
+		;
+connectAttr "<main>:littleIK_ctrl_RT.rpt" "boss:little_pointConstraint_R.tg[0].trt"
+		;
+connectAttr "<main>:littleIK_ctrl_RT.pm" "boss:little_pointConstraint_R.tg[0].tpm"
+		;
+connectAttr "boss:little_pointConstraint_R.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[720].dn"
+		;
+connectAttr "<main>:ring_ikHandle_R.pim" "boss:ring_poleVectorConstraint_R.cpim"
+		;
+connectAttr "<main>:ring01_jntIK_R.pm" "boss:ring_poleVectorConstraint_R.ps";
+connectAttr "<main>:ring01_jntIK_R.t" "boss:ring_poleVectorConstraint_R.crp";
+connectAttr "<main>:ringIK_ctrl_R.t" "boss:ring_poleVectorConstraint_R.tg[0].tt"
+		;
+connectAttr "<main>:ringIK_ctrl_R.rp" "boss:ring_poleVectorConstraint_R.tg[0].trp"
+		;
+connectAttr "<main>:ringIK_ctrl_R.rpt" "boss:ring_poleVectorConstraint_R.tg[0].trt"
+		;
+connectAttr "<main>:ringIK_ctrl_R.pm" "boss:ring_poleVectorConstraint_R.tg[0].tpm"
+		;
+connectAttr "boss:ring_poleVectorConstraint_R.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[902].dn"
+		;
+connectAttr "<main>:ring_ikHandle_R.pim" "boss:ring_pointConstraint_R.cpim";
+connectAttr "<main>:ring_ikHandle_R.rp" "boss:ring_pointConstraint_R.crp";
+connectAttr "<main>:ring_ikHandle_R.rpt" "boss:ring_pointConstraint_R.crt";
+connectAttr "<main>:ringIK_ctrl_RT.t" "boss:ring_pointConstraint_R.tg[0].tt";
+connectAttr "<main>:ringIK_ctrl_RT.rp" "boss:ring_pointConstraint_R.tg[0].trp";
+connectAttr "<main>:ringIK_ctrl_RT.rpt" "boss:ring_pointConstraint_R.tg[0].trt";
+connectAttr "<main>:ringIK_ctrl_RT.pm" "boss:ring_pointConstraint_R.tg[0].tpm";
+connectAttr "boss:ring_pointConstraint_R.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[3214].dn"
+		;
+connectAttr "<main>:middle_ikHandle_R.pim" "boss:middle_poleVectorConstraint_R.cpim"
+		;
+connectAttr "<main>:middle01_jntIK_R.pm" "boss:middle_poleVectorConstraint_R.ps"
+		;
+connectAttr "<main>:middle01_jntIK_R.t" "boss:middle_poleVectorConstraint_R.crp"
+		;
+connectAttr "<main>:middleIK_ctrl_R.t" "boss:middle_poleVectorConstraint_R.tg[0].tt"
+		;
+connectAttr "<main>:middleIK_ctrl_R.rp" "boss:middle_poleVectorConstraint_R.tg[0].trp"
+		;
+connectAttr "<main>:middleIK_ctrl_R.rpt" "boss:middle_poleVectorConstraint_R.tg[0].trt"
+		;
+connectAttr "<main>:middleIK_ctrl_R.pm" "boss:middle_poleVectorConstraint_R.tg[0].tpm"
+		;
+connectAttr "boss:middle_poleVectorConstraint_R.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[1852].dn"
+		;
+connectAttr "<main>:middle_ikHandle_R.pim" "boss:middle_pointConstraint_R.cpim";
+connectAttr "<main>:middle_ikHandle_R.rp" "boss:middle_pointConstraint_R.crp";
+connectAttr "<main>:middle_ikHandle_R.rpt" "boss:middle_pointConstraint_R.crt";
+connectAttr "<main>:middleIK_ctrl_RT.t" "boss:middle_pointConstraint_R.tg[0].tt"
+		;
+connectAttr "<main>:middleIK_ctrl_RT.rp" "boss:middle_pointConstraint_R.tg[0].trp"
+		;
+connectAttr "<main>:middleIK_ctrl_RT.rpt" "boss:middle_pointConstraint_R.tg[0].trt"
+		;
+connectAttr "<main>:middleIK_ctrl_RT.pm" "boss:middle_pointConstraint_R.tg[0].tpm"
+		;
+connectAttr "boss:middle_pointConstraint_R.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[2619].dn"
+		;
+connectAttr "<main>:index_ikHandle_R.pim" "boss:index_poleVectorConstraint_R.cpim"
+		;
+connectAttr "<main>:index01_jntIK_R.pm" "boss:index_poleVectorConstraint_R.ps";
+connectAttr "<main>:index01_jntIK_R.t" "boss:index_poleVectorConstraint_R.crp";
+connectAttr "<main>:indexIK_ctrl_R.t" "boss:index_poleVectorConstraint_R.tg[0].tt"
+		;
+connectAttr "<main>:indexIK_ctrl_R.rp" "boss:index_poleVectorConstraint_R.tg[0].trp"
+		;
+connectAttr "<main>:indexIK_ctrl_R.rpt" "boss:index_poleVectorConstraint_R.tg[0].trt"
+		;
+connectAttr "<main>:indexIK_ctrl_R.pm" "boss:index_poleVectorConstraint_R.tg[0].tpm"
+		;
+connectAttr "boss:index_poleVectorConstraint_R.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[2556].dn"
+		;
+connectAttr "<main>:index_ikHandle_R.pim" "boss:index_pointConstraint_R.cpim";
+connectAttr "<main>:index_ikHandle_R.rp" "boss:index_pointConstraint_R.crp";
+connectAttr "<main>:index_ikHandle_R.rpt" "boss:index_pointConstraint_R.crt";
+connectAttr "<main>:indexIK_ctrl_RT.t" "boss:index_pointConstraint_R.tg[0].tt";
+connectAttr "<main>:indexIK_ctrl_RT.rp" "boss:index_pointConstraint_R.tg[0].trp"
+		;
+connectAttr "<main>:indexIK_ctrl_RT.rpt" "boss:index_pointConstraint_R.tg[0].trt"
+		;
+connectAttr "<main>:indexIK_ctrl_RT.pm" "boss:index_pointConstraint_R.tg[0].tpm"
+		;
+connectAttr "boss:index_pointConstraint_R.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[800].dn"
+		;
+connectAttr "<main>:thumb_ikHandle_R.pim" "boss:thumb_poleVectorConstraint_R.cpim"
+		;
+connectAttr "<main>:thumb01_jntIK_R.pm" "boss:thumb_poleVectorConstraint_R.ps";
+connectAttr "<main>:thumb01_jntIK_R.t" "boss:thumb_poleVectorConstraint_R.crp";
+connectAttr "<main>:thumbIK_ctrl_R.t" "boss:thumb_poleVectorConstraint_R.tg[0].tt"
+		;
+connectAttr "<main>:thumbIK_ctrl_R.rp" "boss:thumb_poleVectorConstraint_R.tg[0].trp"
+		;
+connectAttr "<main>:thumbIK_ctrl_R.rpt" "boss:thumb_poleVectorConstraint_R.tg[0].trt"
+		;
+connectAttr "<main>:thumbIK_ctrl_R.pm" "boss:thumb_poleVectorConstraint_R.tg[0].tpm"
+		;
+connectAttr "boss:thumb_poleVectorConstraint_R.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[3159].dn"
+		;
+connectAttr "<main>:thumb_ikHandle_R.pim" "boss:thumb_pointConstraint_R.cpim";
+connectAttr "<main>:thumb_ikHandle_R.rp" "boss:thumb_pointConstraint_R.crp";
+connectAttr "<main>:thumb_ikHandle_R.rpt" "boss:thumb_pointConstraint_R.crt";
+connectAttr "<main>:thumbIK_ctrl_RT.t" "boss:thumb_pointConstraint_R.tg[0].tt";
+connectAttr "<main>:thumbIK_ctrl_RT.rp" "boss:thumb_pointConstraint_R.tg[0].trp"
+		;
+connectAttr "<main>:thumbIK_ctrl_RT.rpt" "boss:thumb_pointConstraint_R.tg[0].trt"
+		;
+connectAttr "<main>:thumbIK_ctrl_RT.pm" "boss:thumb_pointConstraint_R.tg[0].tpm"
+		;
+connectAttr "boss:thumb_pointConstraint_R.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[2866].dn"
+		;
+connectAttr "<main>:hand_ikHandle_R.pim" "boss:hand_poleVectorConstraint_R.cpim"
+		;
+connectAttr "<main>:upArm_jntIK_R.pm" "boss:hand_poleVectorConstraint_R.ps";
+connectAttr "<main>:upArm_jntIK_R.t" "boss:hand_poleVectorConstraint_R.crp";
+connectAttr "<main>:lowArmIK_ctrl_R.t" "boss:hand_poleVectorConstraint_R.tg[0].tt"
+		;
+connectAttr "<main>:lowArmIK_ctrl_R.rp" "boss:hand_poleVectorConstraint_R.tg[0].trp"
+		;
+connectAttr "<main>:lowArmIK_ctrl_R.rpt" "boss:hand_poleVectorConstraint_R.tg[0].trt"
+		;
+connectAttr "<main>:lowArmIK_ctrl_R.pm" "boss:hand_poleVectorConstraint_R.tg[0].tpm"
+		;
+connectAttr "boss:hand_poleVectorConstraint_R.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[546].dn"
+		;
+connectAttr "<main>:handIK_grp_RT.pim" "boss:handIK_pointConstraint_RT.cpim";
+connectAttr "<main>:handIK_grp_RT.rp" "boss:handIK_pointConstraint_RT.crp";
+connectAttr "<main>:handIK_grp_RT.rpt" "boss:handIK_pointConstraint_RT.crt";
+connectAttr "<main>:handIK_ctrl_RT.t" "boss:handIK_pointConstraint_RT.tg[0].tt";
+connectAttr "<main>:handIK_ctrl_RT.rp" "boss:handIK_pointConstraint_RT.tg[0].trp"
+		;
+connectAttr "<main>:handIK_ctrl_RT.rpt" "boss:handIK_pointConstraint_RT.tg[0].trt"
+		;
+connectAttr "<main>:handIK_ctrl_RT.pm" "boss:handIK_pointConstraint_RT.tg[0].tpm"
+		;
+connectAttr "boss:handIK_pointConstraint_RT.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[2256].dn"
+		;
+connectAttr "<main>:handIK_grp_RT.ro" "boss:handIK_orientConstraint_RT.cro";
+connectAttr "<main>:handIK_grp_RT.pim" "boss:handIK_orientConstraint_RT.cpim";
+connectAttr "<main>:handIK_ctrl_RT.r" "boss:handIK_orientConstraint_RT.tg[0].tr"
+		;
+connectAttr "<main>:handIK_ctrl_RT.ro" "boss:handIK_orientConstraint_RT.tg[0].tro"
+		;
+connectAttr "<main>:handIK_ctrl_RT.pm" "boss:handIK_orientConstraint_RT.tg[0].tpm"
+		;
+connectAttr "boss:handIK_orientConstraint_RT.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[456].dn"
+		;
+connectAttr "<main>:handIK_grp_R.pim" "boss:handIK_pointConstraint_R.cpim";
+connectAttr "<main>:handIK_grp_R.rp" "boss:handIK_pointConstraint_R.crp";
+connectAttr "<main>:handIK_grp_R.rpt" "boss:handIK_pointConstraint_R.crt";
+connectAttr "<main>:handIK_ctrl_R.t" "boss:handIK_pointConstraint_R.tg[0].tt";
+connectAttr "<main>:handIK_ctrl_R.rp" "boss:handIK_pointConstraint_R.tg[0].trp";
+connectAttr "<main>:handIK_ctrl_R.rpt" "boss:handIK_pointConstraint_R.tg[0].trt"
+		;
+connectAttr "<main>:handIK_ctrl_R.pm" "boss:handIK_pointConstraint_R.tg[0].tpm";
+connectAttr "boss:handIK_pointConstraint_R.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[620].dn"
+		;
+connectAttr "<main>:handIK_grp_R.ro" "boss:handIK_orientConstraintR.cro";
+connectAttr "<main>:handIK_grp_R.pim" "boss:handIK_orientConstraintR.cpim";
+connectAttr "<main>:handIK_ctrl_R.r" "boss:handIK_orientConstraintR.tg[0].tr";
+connectAttr "<main>:handIK_ctrl_R.ro" "boss:handIK_orientConstraintR.tg[0].tro";
+connectAttr "<main>:handIK_ctrl_R.pm" "boss:handIK_orientConstraintR.tg[0].tpm";
+connectAttr "boss:handIK_orientConstraintR.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[2990].dn"
+		;
+connectAttr "<main>:thumb_ikHandle_L.pim" "boss:thumb_poleVectorConstraint_L.cpim"
+		;
+connectAttr "<main>:thumb01_jntIK_L.pm" "boss:thumb_poleVectorConstraint_L.ps";
+connectAttr "<main>:thumb01_jntIK_L.t" "boss:thumb_poleVectorConstraint_L.crp";
+connectAttr "<main>:thumbIK_ctrl_L.t" "boss:thumb_poleVectorConstraint_L.tg[0].tt"
+		;
+connectAttr "<main>:thumbIK_ctrl_L.rp" "boss:thumb_poleVectorConstraint_L.tg[0].trp"
+		;
+connectAttr "<main>:thumbIK_ctrl_L.rpt" "boss:thumb_poleVectorConstraint_L.tg[0].trt"
+		;
+connectAttr "<main>:thumbIK_ctrl_L.pm" "boss:thumb_poleVectorConstraint_L.tg[0].tpm"
+		;
+connectAttr "boss:thumb_poleVectorConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[1116].dn"
+		;
+connectAttr "<main>:thumb_ikHandle_L.pim" "boss:thumb_pointConstraint_L.cpim";
+connectAttr "<main>:thumb_ikHandle_L.rp" "boss:thumb_pointConstraint_L.crp";
+connectAttr "<main>:thumb_ikHandle_L.rpt" "boss:thumb_pointConstraint_L.crt";
+connectAttr "<main>:thumbIK_ctrl_LT.t" "boss:thumb_pointConstraint_L.tg[0].tt";
+connectAttr "<main>:thumbIK_ctrl_LT.rp" "boss:thumb_pointConstraint_L.tg[0].trp"
+		;
+connectAttr "<main>:thumbIK_ctrl_LT.rpt" "boss:thumb_pointConstraint_L.tg[0].trt"
+		;
+connectAttr "<main>:thumbIK_ctrl_LT.pm" "boss:thumb_pointConstraint_L.tg[0].tpm"
+		;
+connectAttr "boss:thumb_pointConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[3026].dn"
+		;
+connectAttr "<main>:index_ikHandle_L.pim" "boss:index_poleVectorConstraint_L.cpim"
+		;
+connectAttr "<main>:index01_jntIK_L.pm" "boss:index_poleVectorConstraint_L.ps";
+connectAttr "<main>:index01_jntIK_L.t" "boss:index_poleVectorConstraint_L.crp";
+connectAttr "<main>:indexIK_ctrl_L.t" "boss:index_poleVectorConstraint_L.tg[0].tt"
+		;
+connectAttr "<main>:indexIK_ctrl_L.rp" "boss:index_poleVectorConstraint_L.tg[0].trp"
+		;
+connectAttr "<main>:indexIK_ctrl_L.rpt" "boss:index_poleVectorConstraint_L.tg[0].trt"
+		;
+connectAttr "<main>:indexIK_ctrl_L.pm" "boss:index_poleVectorConstraint_L.tg[0].tpm"
+		;
+connectAttr "boss:index_poleVectorConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[2092].dn"
+		;
+connectAttr "<main>:index_ikHandle_L.pim" "boss:index_pointConstraint_L.cpim";
+connectAttr "<main>:index_ikHandle_L.rp" "boss:index_pointConstraint_L.crp";
+connectAttr "<main>:index_ikHandle_L.rpt" "boss:index_pointConstraint_L.crt";
+connectAttr "<main>:indexIK_ctrl_LT.t" "boss:index_pointConstraint_L.tg[0].tt";
+connectAttr "<main>:indexIK_ctrl_LT.rp" "boss:index_pointConstraint_L.tg[0].trp"
+		;
+connectAttr "<main>:indexIK_ctrl_LT.rpt" "boss:index_pointConstraint_L.tg[0].trt"
+		;
+connectAttr "<main>:indexIK_ctrl_LT.pm" "boss:index_pointConstraint_L.tg[0].tpm"
+		;
+connectAttr "boss:index_pointConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[2738].dn"
+		;
+connectAttr "<main>:middle_ikHandle_L.pim" "boss:middle_poleVectorConstraint_L.cpim"
+		;
+connectAttr "<main>:middle01_jntIK_L.pm" "boss:middle_poleVectorConstraint_L.ps"
+		;
+connectAttr "<main>:middle01_jntIK_L.t" "boss:middle_poleVectorConstraint_L.crp"
+		;
+connectAttr "<main>:middleIK_ctrl_L.t" "boss:middle_poleVectorConstraint_L.tg[0].tt"
+		;
+connectAttr "<main>:middleIK_ctrl_L.rp" "boss:middle_poleVectorConstraint_L.tg[0].trp"
+		;
+connectAttr "<main>:middleIK_ctrl_L.rpt" "boss:middle_poleVectorConstraint_L.tg[0].trt"
+		;
+connectAttr "<main>:middleIK_ctrl_L.pm" "boss:middle_poleVectorConstraint_L.tg[0].tpm"
+		;
+connectAttr "boss:middle_poleVectorConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[2860].dn"
+		;
+connectAttr "<main>:middle_ikHandle_L.pim" "boss:middle_pointConstraint_L.cpim";
+connectAttr "<main>:middle_ikHandle_L.rp" "boss:middle_pointConstraint_L.crp";
+connectAttr "<main>:middle_ikHandle_L.rpt" "boss:middle_pointConstraint_L.crt";
+connectAttr "<main>:middleIK_ctrl_LT.t" "boss:middle_pointConstraint_L.tg[0].tt"
+		;
+connectAttr "<main>:middleIK_ctrl_LT.rp" "boss:middle_pointConstraint_L.tg[0].trp"
+		;
+connectAttr "<main>:middleIK_ctrl_LT.rpt" "boss:middle_pointConstraint_L.tg[0].trt"
+		;
+connectAttr "<main>:middleIK_ctrl_LT.pm" "boss:middle_pointConstraint_L.tg[0].tpm"
+		;
+connectAttr "boss:middle_pointConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[1078].dn"
+		;
+connectAttr "<main>:ring_ikHandle_L.pim" "boss:ring_poleVectorConstraint_L.cpim"
+		;
+connectAttr "<main>:ring01_jntIK_L.pm" "boss:ring_poleVectorConstraint_L.ps";
+connectAttr "<main>:ring01_jntIK_L.t" "boss:ring_poleVectorConstraint_L.crp";
+connectAttr "<main>:ringIK_ctrl_L.t" "boss:ring_poleVectorConstraint_L.tg[0].tt"
+		;
+connectAttr "<main>:ringIK_ctrl_L.rp" "boss:ring_poleVectorConstraint_L.tg[0].trp"
+		;
+connectAttr "<main>:ringIK_ctrl_L.rpt" "boss:ring_poleVectorConstraint_L.tg[0].trt"
+		;
+connectAttr "<main>:ringIK_ctrl_L.pm" "boss:ring_poleVectorConstraint_L.tg[0].tpm"
+		;
+connectAttr "boss:ring_poleVectorConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[923].dn"
+		;
+connectAttr "<main>:ring_ikHandle_L.pim" "boss:ring_pointConstraint_L.cpim";
+connectAttr "<main>:ring_ikHandle_L.rp" "boss:ring_pointConstraint_L.crp";
+connectAttr "<main>:ring_ikHandle_L.rpt" "boss:ring_pointConstraint_L.crt";
+connectAttr "<main>:ringIK_ctrl_LT.t" "boss:ring_pointConstraint_L.tg[0].tt";
+connectAttr "<main>:ringIK_ctrl_LT.rp" "boss:ring_pointConstraint_L.tg[0].trp";
+connectAttr "<main>:ringIK_ctrl_LT.rpt" "boss:ring_pointConstraint_L.tg[0].trt";
+connectAttr "<main>:ringIK_ctrl_LT.pm" "boss:ring_pointConstraint_L.tg[0].tpm";
+connectAttr "boss:ring_pointConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[1721].dn"
+		;
+connectAttr "<main>:little_ikHandle_L.pim" "boss:little_poleVectorConstraint_L.cpim"
+		;
+connectAttr "<main>:little01_jntIK_L.pm" "boss:little_poleVectorConstraint_L.ps"
+		;
+connectAttr "<main>:little01_jntIK_L.t" "boss:little_poleVectorConstraint_L.crp"
+		;
+connectAttr "<main>:littleIK_ctrl_L.t" "boss:little_poleVectorConstraint_L.tg[0].tt"
+		;
+connectAttr "<main>:littleIK_ctrl_L.rp" "boss:little_poleVectorConstraint_L.tg[0].trp"
+		;
+connectAttr "<main>:littleIK_ctrl_L.rpt" "boss:little_poleVectorConstraint_L.tg[0].trt"
+		;
+connectAttr "<main>:littleIK_ctrl_L.pm" "boss:little_poleVectorConstraint_L.tg[0].tpm"
+		;
+connectAttr "boss:little_poleVectorConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[3095].dn"
+		;
+connectAttr "<main>:little_ikHandle_L.pim" "boss:little_pointConstraint_L.cpim";
+connectAttr "<main>:little_ikHandle_L.rp" "boss:little_pointConstraint_L.crp";
+connectAttr "<main>:little_ikHandle_L.rpt" "boss:little_pointConstraint_L.crt";
+connectAttr "<main>:littleIK_ctrl_LT.t" "boss:little_pointConstraint_L.tg[0].tt"
+		;
+connectAttr "<main>:littleIK_ctrl_LT.rp" "boss:little_pointConstraint_L.tg[0].trp"
+		;
+connectAttr "<main>:littleIK_ctrl_LT.rpt" "boss:little_pointConstraint_L.tg[0].trt"
+		;
+connectAttr "<main>:littleIK_ctrl_LT.pm" "boss:little_pointConstraint_L.tg[0].tpm"
+		;
+connectAttr "boss:little_pointConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[2669].dn"
+		;
+connectAttr "<main>:hand_ikHandle_L.pim" "boss:hand_poleVectorConstraint_L.cpim"
+		;
+connectAttr "<main>:upArm_jntIK_L.pm" "boss:hand_poleVectorConstraint_L.ps";
+connectAttr "<main>:upArm_jntIK_L.t" "boss:hand_poleVectorConstraint_L.crp";
+connectAttr "<main>:lowArmIK_ctrl_L.t" "boss:hand_poleVectorConstraint_L.tg[0].tt"
+		;
+connectAttr "<main>:lowArmIK_ctrl_L.rp" "boss:hand_poleVectorConstraint_L.tg[0].trp"
+		;
+connectAttr "<main>:lowArmIK_ctrl_L.rpt" "boss:hand_poleVectorConstraint_L.tg[0].trt"
+		;
+connectAttr "<main>:lowArmIK_ctrl_L.pm" "boss:hand_poleVectorConstraint_L.tg[0].tpm"
+		;
+connectAttr "boss:hand_poleVectorConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[3150].dn"
+		;
+connectAttr "<main>:handIK_grp_LT.ro" "boss:handIK_orientConstraint_LT.cro";
+connectAttr "<main>:handIK_grp_LT.pim" "boss:handIK_orientConstraint_LT.cpim";
+connectAttr "<main>:handIK_ctrl_LT.r" "boss:handIK_orientConstraint_LT.tg[0].tr"
+		;
+connectAttr "<main>:handIK_ctrl_LT.ro" "boss:handIK_orientConstraint_LT.tg[0].tro"
+		;
+connectAttr "<main>:handIK_ctrl_LT.pm" "boss:handIK_orientConstraint_LT.tg[0].tpm"
+		;
+connectAttr "boss:handIK_orientConstraint_LT.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[1172].dn"
+		;
+connectAttr "<main>:handIK_grp_LT.pim" "boss:handIK_pointConstraint_LT.cpim";
+connectAttr "<main>:handIK_grp_LT.rp" "boss:handIK_pointConstraint_LT.crp";
+connectAttr "<main>:handIK_grp_LT.rpt" "boss:handIK_pointConstraint_LT.crt";
+connectAttr "<main>:handIK_ctrl_LT.t" "boss:handIK_pointConstraint_LT.tg[0].tt";
+connectAttr "<main>:handIK_ctrl_LT.rp" "boss:handIK_pointConstraint_LT.tg[0].trp"
+		;
+connectAttr "<main>:handIK_ctrl_LT.rpt" "boss:handIK_pointConstraint_LT.tg[0].trt"
+		;
+connectAttr "<main>:handIK_ctrl_LT.pm" "boss:handIK_pointConstraint_LT.tg[0].tpm"
+		;
+connectAttr "boss:handIK_pointConstraint_LT.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[430].dn"
+		;
+connectAttr "<main>:handIK_grp_L.ro" "boss:handIK_orientConstraint_L.cro";
+connectAttr "<main>:handIK_grp_L.pim" "boss:handIK_orientConstraint_L.cpim";
+connectAttr "<main>:handIK_ctrl_L.r" "boss:handIK_orientConstraint_L.tg[0].tr";
+connectAttr "<main>:handIK_ctrl_L.ro" "boss:handIK_orientConstraint_L.tg[0].tro"
+		;
+connectAttr "<main>:handIK_ctrl_L.pm" "boss:handIK_orientConstraint_L.tg[0].tpm"
+		;
+connectAttr "boss:handIK_orientConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[590].dn"
+		;
+connectAttr "<main>:handIK_grp_L.pim" "boss:handIK_pointConstraint_L.cpim";
+connectAttr "<main>:handIK_grp_L.rp" "boss:handIK_pointConstraint_L.crp";
+connectAttr "<main>:handIK_grp_L.rpt" "boss:handIK_pointConstraint_L.crt";
+connectAttr "<main>:handIK_ctrl_L.t" "boss:handIK_pointConstraint_L.tg[0].tt";
+connectAttr "<main>:handIK_ctrl_L.rp" "boss:handIK_pointConstraint_L.tg[0].trp";
+connectAttr "<main>:handIK_ctrl_L.rpt" "boss:handIK_pointConstraint_L.tg[0].trt"
+		;
+connectAttr "<main>:handIK_ctrl_L.pm" "boss:handIK_pointConstraint_L.tg[0].tpm";
+connectAttr "boss:handIK_pointConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[92].dn"
+		;
+connectAttr "<main>:toeTap_grp_R.ro" "boss:toeTap_grp_R_orientConstraint1.cro";
+connectAttr "<main>:toeTap_grp_R.pim" "boss:toeTap_grp_R_orientConstraint1.cpim"
+		;
+connectAttr "<main>:toeTap_ctrl_R.r" "boss:toeTap_grp_R_orientConstraint1.tg[0].tr"
+		;
+connectAttr "<main>:toeTap_ctrl_R.ro" "boss:toeTap_grp_R_orientConstraint1.tg[0].tro"
+		;
+connectAttr "<main>:toeTap_ctrl_R.pm" "boss:toeTap_grp_R_orientConstraint1.tg[0].tpm"
+		;
+connectAttr "boss:toeTap_grp_R_orientConstraint1.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[653].dn"
+		;
+connectAttr "<main>:ankle_ikHandle_R.pim" "boss:ankle_poleVectorConstraint_R.cpim"
+		;
+connectAttr "<main>:upLeg_jntIK_R.pm" "boss:ankle_poleVectorConstraint_R.ps";
+connectAttr "<main>:upLeg_jntIK_R.t" "boss:ankle_poleVectorConstraint_R.crp";
+connectAttr "<main>:lowLegIK_ctrl_R.t" "boss:ankle_poleVectorConstraint_R.tg[0].tt"
+		;
+connectAttr "<main>:lowLegIK_ctrl_R.rp" "boss:ankle_poleVectorConstraint_R.tg[0].trp"
+		;
+connectAttr "<main>:lowLegIK_ctrl_R.rpt" "boss:ankle_poleVectorConstraint_R.tg[0].trt"
+		;
+connectAttr "<main>:lowLegIK_ctrl_R.pm" "boss:ankle_poleVectorConstraint_R.tg[0].tpm"
+		;
+connectAttr "boss:ankle_poleVectorConstraint_R.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[502].dn"
+		;
+connectAttr "<main>:peelHell_grp_R.ro" "boss:peelHell_grp_R_orientConstraint1.cro"
+		;
+connectAttr "<main>:peelHell_grp_R.pim" "boss:peelHell_grp_R_orientConstraint1.cpim"
+		;
+connectAttr "|<main>:ctrl_grp|<main>:root_trs|<main>:root_ctrl|<main>:bodyScale_ctrl|<main>:footIK_trs_R|<main>:footIK_ctrl_R|<main>:footIK_trs_RT|<main>:footIK_ctrl_RT|<main>:peelHell_trs_R|<main>:peelHell_trs_R.r" "boss:peelHell_grp_R_orientConstraint1.tg[0].tr"
+		;
+connectAttr "|<main>:ctrl_grp|<main>:root_trs|<main>:root_ctrl|<main>:bodyScale_ctrl|<main>:footIK_trs_R|<main>:footIK_ctrl_R|<main>:footIK_trs_RT|<main>:footIK_ctrl_RT|<main>:peelHell_trs_R|<main>:peelHell_trs_R.ro" "boss:peelHell_grp_R_orientConstraint1.tg[0].tro"
+		;
+connectAttr "|<main>:ctrl_grp|<main>:root_trs|<main>:root_ctrl|<main>:bodyScale_ctrl|<main>:footIK_trs_R|<main>:footIK_ctrl_R|<main>:footIK_trs_RT|<main>:footIK_ctrl_RT|<main>:peelHell_trs_R|<main>:peelHell_trs_R.pm" "boss:peelHell_grp_R_orientConstraint1.tg[0].tpm"
+		;
+connectAttr "boss:peelHell_grp_R_orientConstraint1.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[1024].dn"
+		;
+connectAttr "<main>:footIK_grp_RT.ro" "boss:footIK_grp_RT_orientConstraint1.cro"
+		;
+connectAttr "<main>:footIK_grp_RT.pim" "boss:footIK_grp_RT_orientConstraint1.cpim"
+		;
+connectAttr "<main>:footIK_ctrl_RT.r" "boss:footIK_grp_RT_orientConstraint1.tg[0].tr"
+		;
+connectAttr "<main>:footIK_ctrl_RT.ro" "boss:footIK_grp_RT_orientConstraint1.tg[0].tro"
+		;
+connectAttr "<main>:footIK_ctrl_RT.pm" "boss:footIK_grp_RT_orientConstraint1.tg[0].tpm"
+		;
+connectAttr "<main>:footIK_grp_R.ro" "boss:footIK_orientConstraint_R.cro";
+connectAttr "<main>:footIK_grp_R.pim" "boss:footIK_orientConstraint_R.cpim";
+connectAttr "<main>:footIK_ctrl_R.r" "boss:footIK_orientConstraint_R.tg[0].tr";
+connectAttr "<main>:footIK_ctrl_R.ro" "boss:footIK_orientConstraint_R.tg[0].tro"
+		;
+connectAttr "<main>:footIK_ctrl_R.pm" "boss:footIK_orientConstraint_R.tg[0].tpm"
+		;
+connectAttr "<main>:footIK_grp_R.pim" "boss:footIK_pointConstraint_R.cpim";
+connectAttr "<main>:footIK_grp_R.rp" "boss:footIK_pointConstraint_R.crp";
+connectAttr "<main>:footIK_grp_R.rpt" "boss:footIK_pointConstraint_R.crt";
+connectAttr "<main>:footIK_ctrl_R.t" "boss:footIK_pointConstraint_R.tg[0].tt";
+connectAttr "<main>:footIK_ctrl_R.rp" "boss:footIK_pointConstraint_R.tg[0].trp";
+connectAttr "<main>:footIK_ctrl_R.rpt" "boss:footIK_pointConstraint_R.tg[0].trt"
+		;
+connectAttr "<main>:footIK_ctrl_R.pm" "boss:footIK_pointConstraint_R.tg[0].tpm";
+connectAttr "<main>:ankle_ikHandle_L.pim" "boss:ankle_poleVectorConstraint_L.cpim"
+		;
+connectAttr "<main>:upLeg_jntIK_L.pm" "boss:ankle_poleVectorConstraint_L.ps";
+connectAttr "<main>:upLeg_jntIK_L.t" "boss:ankle_poleVectorConstraint_L.crp";
+connectAttr "<main>:lowLegIK_ctrl_L.t" "boss:ankle_poleVectorConstraint_L.tg[0].tt"
+		;
+connectAttr "<main>:lowLegIK_ctrl_L.rp" "boss:ankle_poleVectorConstraint_L.tg[0].trp"
+		;
+connectAttr "<main>:lowLegIK_ctrl_L.rpt" "boss:ankle_poleVectorConstraint_L.tg[0].trt"
+		;
+connectAttr "<main>:lowLegIK_ctrl_L.pm" "boss:ankle_poleVectorConstraint_L.tg[0].tpm"
+		;
+connectAttr "boss:ankle_poleVectorConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[1227].dn"
+		;
+connectAttr "<main>:peelHell_grp_L.ro" "boss:peelHell_orientConstraint_L.cro";
+connectAttr "<main>:peelHell_grp_L.pim" "boss:peelHell_orientConstraint_L.cpim";
+connectAttr "|<main>:ctrl_grp|<main>:root_trs|<main>:root_ctrl|<main>:bodyScale_ctrl|<main>:footIK_trs_L|<main>:footIK_ctrl_L|<main>:footIK_trs_LT|<main>:footIK_ctrl_LT|<main>:peelHell_trs_L|<main>:peelHell_trs_L.r" "boss:peelHell_orientConstraint_L.tg[0].tr"
+		;
+connectAttr "|<main>:ctrl_grp|<main>:root_trs|<main>:root_ctrl|<main>:bodyScale_ctrl|<main>:footIK_trs_L|<main>:footIK_ctrl_L|<main>:footIK_trs_LT|<main>:footIK_ctrl_LT|<main>:peelHell_trs_L|<main>:peelHell_trs_L.ro" "boss:peelHell_orientConstraint_L.tg[0].tro"
+		;
+connectAttr "|<main>:ctrl_grp|<main>:root_trs|<main>:root_ctrl|<main>:bodyScale_ctrl|<main>:footIK_trs_L|<main>:footIK_ctrl_L|<main>:footIK_trs_LT|<main>:footIK_ctrl_LT|<main>:peelHell_trs_L|<main>:peelHell_trs_L.pm" "boss:peelHell_orientConstraint_L.tg[0].tpm"
+		;
+connectAttr "boss:peelHell_orientConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[1335].dn"
+		;
+connectAttr "<main>:toeTap_grp_L.ro" "boss:toeTap_orientConstraint_L.cro";
+connectAttr "<main>:toeTap_grp_L.pim" "boss:toeTap_orientConstraint_L.cpim";
+connectAttr "<main>:toeTap_ctrl_L.r" "boss:toeTap_orientConstraint_L.tg[0].tr";
+connectAttr "<main>:toeTap_ctrl_L.ro" "boss:toeTap_orientConstraint_L.tg[0].tro"
+		;
+connectAttr "<main>:toeTap_ctrl_L.pm" "boss:toeTap_orientConstraint_L.tg[0].tpm"
+		;
+connectAttr "boss:toeTap_orientConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[1216].dn"
+		;
+connectAttr "<main>:footIK_grp_LT.ro" "boss:footIK_orientConstraint_LT.cro";
+connectAttr "<main>:footIK_grp_LT.pim" "boss:footIK_orientConstraint_LT.cpim";
+connectAttr "<main>:footIK_ctrl_LT.r" "boss:footIK_orientConstraint_LT.tg[0].tr"
+		;
+connectAttr "<main>:footIK_ctrl_LT.ro" "boss:footIK_orientConstraint_LT.tg[0].tro"
+		;
+connectAttr "<main>:footIK_ctrl_LT.pm" "boss:footIK_orientConstraint_LT.tg[0].tpm"
+		;
+connectAttr "boss:footIK_orientConstraint_LT.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[2392].dn"
+		;
+connectAttr "<main>:footIK_grp_L.ro" "boss:footIK_parentConstraint_L.cro";
+connectAttr "<main>:footIK_grp_L.pim" "boss:footIK_parentConstraint_L.cpim";
+connectAttr "<main>:footIK_grp_L.rp" "boss:footIK_parentConstraint_L.crp";
+connectAttr "<main>:footIK_grp_L.rpt" "boss:footIK_parentConstraint_L.crt";
+connectAttr "<main>:footIK_ctrl_L.t" "boss:footIK_parentConstraint_L.tg[0].tt";
+connectAttr "<main>:footIK_ctrl_L.rp" "boss:footIK_parentConstraint_L.tg[0].trp"
+		;
+connectAttr "<main>:footIK_ctrl_L.rpt" "boss:footIK_parentConstraint_L.tg[0].trt"
+		;
+connectAttr "<main>:footIK_ctrl_L.r" "boss:footIK_parentConstraint_L.tg[0].tr";
+connectAttr "<main>:footIK_ctrl_L.ro" "boss:footIK_parentConstraint_L.tg[0].tro"
+		;
+connectAttr "<main>:footIK_ctrl_L.s" "boss:footIK_parentConstraint_L.tg[0].ts";
+connectAttr "<main>:footIK_ctrl_L.pm" "boss:footIK_parentConstraint_L.tg[0].tpm"
+		;
+connectAttr "boss:footIK_parentConstraint_L.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[1713].dn"
+		;
+connectAttr "<boxHuman_rig>:footIK_ctrl_R.s" "root_ctrl_parentConstraint1.tg[0].ts"
+		;
+connectAttr "<boxHuman_rig>:footIK_ctrl_R.r" "root_ctrl_parentConstraint1.tg[0].tr"
+		;
+connectAttr "<boxHuman_rig>:footIK_ctrl_R.ro" "root_ctrl_parentConstraint1.tg[0].tro"
+		;
+connectAttr "<boxHuman_rig>:footIK_ctrl_R.pm" "root_ctrl_parentConstraint1.tg[0].tpm"
+		;
+connectAttr "<boxHuman_rig>:footIK_ctrl_R.t" "root_ctrl_parentConstraint1.tg[0].tt"
+		;
+connectAttr "<boxHuman_rig>:footIK_ctrl_R.rp" "root_ctrl_parentConstraint1.tg[0].trp"
+		;
+connectAttr "<boxHuman_rig>:footIK_ctrl_R.rpt" "root_ctrl_parentConstraint1.tg[0].trt"
+		;
+connectAttr "<main>:root_ctrl.rp" "root_ctrl_parentConstraint1.crp";
+connectAttr "<main>:root_ctrl.rpt" "root_ctrl_parentConstraint1.crt";
+connectAttr "<main>:root_ctrl.ro" "root_ctrl_parentConstraint1.cro";
+connectAttr "<main>:root_ctrl.pim" "root_ctrl_parentConstraint1.cpim";
+connectAttr "root_ctrl_parentConstraint1.w0" "root_ctrl_parentConstraint1.tg[0].tw"
+		;
+connectAttr "root_ctrl_parentConstraint1.ctx" "pairBlend1.itx2";
+connectAttr "root_ctrl_parentConstraint1.cty" "pairBlend1.ity2";
+connectAttr "root_ctrl_parentConstraint1.ctz" "pairBlend1.itz2";
+connectAttr "root_ctrl_parentConstraint1.crx" "pairBlend1.irx2";
+connectAttr "root_ctrl_parentConstraint1.cry" "pairBlend1.iry2";
+connectAttr "root_ctrl_parentConstraint1.crz" "pairBlend1.irz2";
+connectAttr "root_ctrl_parentConstraint1.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[3383].dn"
+		;
+connectAttr "pairBlend1.otx" "<main>:root_ctrl.tx";
+connectAttr "pairBlend1.oty" "<main>:root_ctrl.ty";
+connectAttr "pairBlend1.otz" "<main>:root_ctrl.tz";
+connectAttr "pairBlend1.orx" "<main>:root_ctrl.rx";
+connectAttr "pairBlend1.ory" "<main>:root_ctrl.ry";
+connectAttr "pairBlend1.orz" "<main>:root_ctrl.rz";
+connectAttr "<main>:root_ctrl.ro" "pairBlend1.ro";
+connectAttr "<main>:root_ctrl.blendParent1" "pairBlend1.w";
+connectAttr "<root>:root_ctrl_translateX.o" "pairBlend1.itx1";
+connectAttr "<root>:root_ctrl_translateY.o" "pairBlend1.ity1";
+connectAttr "<root>:root_ctrl_translateZ.o" "pairBlend1.itz1";
+connectAttr "<root>:root_ctrl_rotateX.o" "pairBlend1.irx1";
+connectAttr "<root>:root_ctrl_rotateY.o" "pairBlend1.iry1";
+connectAttr "<root>:root_ctrl_rotateZ.o" "pairBlend1.irz1";
+connectAttr "pairBlend1.msg" "<root>:MayaNodeEditorSavedTabsInfo.tgi[0].ni[3371].dn"
+		;
+// End of bigBoss.editMA
+
+;
